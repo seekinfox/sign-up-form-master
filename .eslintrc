@@ -1,0 +1,15 @@
+{
+    "parserOptions": {
+        "ecmaVersion": 2017
+    },
+
+    "env": {
+        "es6": true
+    }
+}
+"language": {
+    "javascript": {
+        "linting.prefer": ["JSHint"],
+        "linting.usePreferredOnly": true
+    }
+},

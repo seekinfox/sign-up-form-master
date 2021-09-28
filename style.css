@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --Red: hsl(0, 100%, 74%);
+    --Blue: hsl(248, 32%, 49%);
+    --Green: hsl(154, 59%, 51%);
+    --Dark-Blue: hsl(249, 10%, 26%);
+    --Grayish-Blue: hsl(246, 25%, 77%);
+}
+
+html,
+body {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    background: url("https://raw.githubusercontent.com/seekinfox/sign-up-form-master/main/images/bg-intro-mobile.png"), linear-gradient(to bottom, hsl(0, 100%, 74%), hsl(0, 100%, 74%));
+    background-repeat: round;
+    background-size: cover;
+}
+
+/*basic css end*/
+/*css grid styling*/
+.container {
+    display: grid;
+    grid-template-columns: minmax(1.5rem, 1fr) minmax(100px, 10fr) minmax(1.5rem, 1fr);
+}
+
+.intro {
+    color: white;
+    grid-column: 2/3;
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 25px;
+    margin-bottom: 2rem;
+}
+
+.form {
+    grid-column: 2/3;
+}
+
+form > a {
+    border-bottom: 0.4rem solid rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background: var(--Green);
+    color: white;
+    padding: 1rem 0 1rem;
+    border-radius: 0.4rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+form > p {
+    color: var(--Grayish-Blue);
+    font-size: 12px;
+    padding: 0.5rem 0.5rem 0 0.5rem;
+
+}
+
+form input {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    background: white;
+    border: none;
+    outline: 1px solid var(--Grayish-Blue);
+    border-radius: 0.1rem;
+}
+
+p > a {
+    color: var(--Red);
+    font-weight: 600;
+}
+
+::placeholder {
+    color: black;
+    font-weight: 600;
+}
+
+.plan {
+    text-align: center;
+    background: var(--Blue);
+    color: white;
+    width: 100%;
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+form {
+    text-align: center;
+    padding: 1.5rem 1.5rem 2rem 1.5rem;
+    background: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    border-radius: 0.5rem;
+    margin-bottom: 4rem;
+    box-shadow: 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+form > div {
+    position: relative;
+}
+.warning {
+    text-align: right;
+    font-size: 11px;
+    color: var(--Red);
+    position: absolute;
+    top: 65%;
+    right: 0;
+    font-style: italic;
+}
+.warning-dot {
+    opacity: 0;
+    position: absolute;
+    right: 5%;
+    bottom: 55%;
+    width: 1rem;
+}
+.placeholder-one::placeholder {
+    color: red;
+ }
+/*media queries--*/
+
+@media (min-width: 1000px) {
+
+    body,
+    html {
+
+        background: url("https://raw.githubusercontent.com/seekinfox/sign-up-form-master/main/images/bg-intro-desktop.png"), linear-gradient(to bottom, hsl(0, 100%, 74%), hsl(0, 100%, 74%));
+        z-index: -1;
+    }
+
+    .container {
+        height: 100vh;
+        grid-template-columns: minmax(5rem, 1fr) minmax(1.5rem, 5fr) minmax(5rem, 1fr) minmax(5rem, 4fr) minmax(5rem, 1fr);
+        padding: 5rem 0;
+        margin: 0;
+    }
+
+    .intro {
+        text-align: left;
+        grid-column: 2 / 3;
+    }
+
+    .intro h1 {
+        font-size: 3rem;
+    }
+
+    .form {
+        grid-column: 4/5;
+        margin: 0;
+    }
+}
