@@ -9,7 +9,6 @@ This is a solution to the [Intro component with sign up form challenge on Fronte
   - [Screenshot](#screenshot)
   - [Links](#links)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
 - [Author](#author)
 
 
@@ -26,14 +25,15 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![https://raw.githubusercontent.com/seekinfox/sign-up-form-master/main/Screenshot_2021-09-28%20Frontend%20Mentor%20Intro%20component%20with%20sign%20up%20form(1).png](https://raw.githubusercontent.com/seekinfox/sign-up-form-master/main/Screenshot_2021-09-28%20Frontend%20Mentor%20Intro%20component%20with%20sign%20up%20form(1).png)
+![https://raw.githubusercontent.com/seekinfox/sign-up-form-master/main/Screenshot_2021-09-28%20Frontend%20Mentor%20Intro%20component%20with%20sign%20up%20form(3).png](https://raw.githubusercontent.com/seekinfox/sign-up-form-master/main/Screenshot_2021-09-28%20Frontend%20Mentor%20Intro%20component%20with%20sign%20up%20form(3).png)
 
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/seekinfox/sign-up-form-master](https://github.com/seekinfox/sign-up-form-master)
+- Live Site URL: [https://seekinfox.github.io/sign-up-form-master/](https://seekinfox.github.io/sign-up-form-master/)
 
 
 
@@ -48,5 +48,5 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@seekinfox](https://www.frontendmentor.io/profile/seekinfox)
 
